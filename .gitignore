@@ -209,3 +209,5 @@ __marimo__/
 # Project
 
 data_*
+benchmark_results
+compression_benchmark.csv
