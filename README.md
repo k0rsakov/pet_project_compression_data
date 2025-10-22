@@ -70,7 +70,7 @@ flowchart TB
         Hot[Hot storage]:::tier
         Warm[Warm storage]:::tier
         Cold[Cold storage]:::tier
-        Hot ~~~ Warm ~~~ Cold
+        Hot --> Warm --> Cold
 
         %% Вторая строка: Access
         A_H[Доступ: Очень частый]
