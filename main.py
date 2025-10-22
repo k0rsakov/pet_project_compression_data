@@ -7,12 +7,13 @@ from faker import Faker
 import pandas as pd
 
 # Настройка логирования
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 fake = Faker(locale="ru_RU")
 
 CNT_USER = 1_000
+
 
 def main():
     start_time = time.time()
